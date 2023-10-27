@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH","b463bedd791aa733ae2297e6520302fe")
 BOT_TOKEN = getenv("BOT_TOKEN","")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ambot:ambot@ambot.onafiyb.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001840241140"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Sophia Music")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001953171805"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zehar Music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6204761408").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6007465899").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AbhiModszYT/AMMusic"
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AmBotYT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/zehar_dpz")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+9yZ3p-sdNRY2Y2E1")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,34 +76,34 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/ea11748b5ecd674583a99.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/884dd57136cac270c38bd.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/ea11748b5ecd674583a99.jpg",
+    "https://te.legra.ph/file/884dd57136cac270c38bd.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/ea11748b5ecd674583a99.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/884dd57136cac270c38bd.jpg"
 
-GLOBAL_IMG_URL = "https://graph.org/file/ea11748b5ecd674583a99.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/884dd57136cac270c38bd.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/ea11748b5ecd674583a99.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/884dd57136cac270c38bd.jpg"
 
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
 
 
 def time_to_seconds(time):
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/b3c02396b5afb763b28f4.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/56d1760224589ee370186.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/5f680491854ba65e2f58a.jpg"
